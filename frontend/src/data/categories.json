@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Personal Care",
+    "image": "/images/product-placeholder.png"
+  },
+  {
+    "id": 2,
+    "name": "Healthcare Devices",
+    "image": "/images/product-placeholder.png"
+  },
+  {
+    "id": 3,
+    "name": "Medicines",
+    "image": "/images/product-placeholder.png"
+  },
+  {
+    "id": 4,
+    "name": "Vitamins",
+    "image": "/images/product-placeholder.png"
+  }
+]
