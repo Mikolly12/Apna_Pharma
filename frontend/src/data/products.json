@@ -1,0 +1,40 @@
+[
+  {
+    "id": 1,
+    "name": "Multivitamin Tablets",
+    "price": 230.00,
+    "image": "/images/product-placeholder.png",
+    "category": "Vitamins",
+    "brand": "HealthFirst",
+    "description": "A comprehensive multivitamin to support overall health and wellness.",
+    "usage": "Take one tablet daily with a meal.",
+    "reviews": [
+      { "user": "Alex", "rating": 5, "comment": "Great product!" },
+      { "user": "Maria", "rating": 4, "comment": "Good value for money." }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Pain Relief Gel",
+    "price": 98.50,
+    "image": "/images/product-placeholder.png",
+    "category": "Pain Relief",
+    "brand": "ReliefNow",
+    "description": "Fast-acting gel for muscle and joint pain.",
+    "usage": "Apply to the affected area 3-4 times a day.",
+    "reviews": []
+  },
+  {
+    "id": 3,
+    "name": "Digital Thermometer",
+    "price": 1200.00,
+    "image": "/images/product-placeholder.png",
+    "category": "Healthcare Devices",
+    "brand": "MediTech",
+    "description": "Accurate and easy-to-use digital thermometer.",
+    "usage": "Place under the tongue for an accurate reading.",
+    "reviews": [
+      { "user": "John", "rating": 5, "comment": "Very reliable." }
+    ]
+  }
+]
