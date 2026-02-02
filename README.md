@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,101 +6,136 @@
 
 <body>
   <p align="center">
-  <img src="https://img.shields.io/badge/Online%20Pharmacy-%F0%9F%8F%A5%20Web%20Application-blue?style=for-the-badge" />
-</p>
+    <img src="https://img.shields.io/badge/Online%20Pharmacy-%F0%9F%8F%A5%20Web%20Application-blue?style=for-the-badge" />
+  </p>
 
-<h1 align="center">🏥 Online Pharmacy Web Application</h1>
+  <h1 align="center">🏥 Online Pharmacy Web Application</h1>
 
-<p align="center">
-  A full-stack digital pharmacy platform that allows users to search medicines, upload prescriptions, 
-  manage orders, and get home delivery. Built with React, Node.js, MySQL, and secure JWT authentication.
-</p>
+  <p align="center">
+    A full-stack digital pharmacy platform that allows users to search medicines, upload prescriptions, 
+    manage orders, and get home delivery. Built with React.js, Spring Boot, .NET, MySQL, and secure JWT authentication.
+  </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Frontend-React.js-brightgreen?style=flat-square" />
-  <img src="https://img.shields.io/badge/Backend-Node.js%20%26%20Express.js-yellow?style=flat-square" />
-  <img src="https://img.shields.io/badge/Database-MySQL-orange?style=flat-square" />
-  <img src="https://img.shields.io/badge/Authentication-JWT-red?style=flat-square" />
-  <img src="https://img.shields.io/badge/UI-Bootstrap-blueviolet?style=flat-square" />
-</p>
+  <p align="center">
+    <img src="https://img.shields.io/badge/Frontend-React.js-brightgreen?style=flat-square" />
+    <img src="https://img.shields.io/badge/Backend-Spring%20Boot-yellow?style=flat-square" />
+    <img src="https://img.shields.io/badge/Prescription%20Service-.NET-purple?style=flat-square" />
+    <img src="https://img.shields.io/badge/Database-MySQL-orange?style=flat-square" />
+    <img src="https://img.shields.io/badge/Authentication-JWT-red?style=flat-square" />
+    <img src="https://img.shields.io/badge/UI-Bootstrap-blueviolet?style=flat-square" />
+  </p>
 
----
+  <hr />
 
-## 📌 Project Overview
-An **Online Pharmacy** is a digital platform that enables users to buy medicines, healthcare items, and wellness products from the comfort of their homes. This project provides features like:
+  <h2>📌 Project Overview</h2>
+  <p>
+    The <b>Online Pharmacy Web Application</b> is a digital healthcare platform that enables users to purchase
+    medicines and healthcare products online. It provides features such as medicine search, prescription upload,
+    secure ordering, and doorstep delivery.
+  </p>
 
-- Online prescription upload  
-- Medicine search with categories  
-- Doctor consultation support (optional)  
-- Secure online ordering and delivery  
+  <p>
+    The system uses a <b>microservice-oriented approach</b>, where prescription uploads are handled separately
+    using a <b>.NET service</b>, while the core business logic and APIs are managed using <b>Spring Boot</b>.
+  </p>
 
-The system simplifies access to healthcare and reduces the time spent visiting physical pharmacies.
+  <hr />
 
----
+  <h2>🚀 Features</h2>
 
-## 🚀 Features
+  <h3>👤 User Features</h3>
+  <ul>
+    <li>User registration & secure login using JWT</li>
+    <li>Search medicines and healthcare products by category</li>
+    <li>Add products to cart and place orders</li>
+    <li>Upload prescription for verification (.NET service)</li>
+    <li>Secure order tracking and history</li>
+    <li>Responsive and mobile-friendly UI</li>
+  </ul>
 
-### 👤 User Features
-- User registration & secure login (JWT)
-- Search medicines & products with categories
-- Add-to-cart & order management
-- Upload prescription for verification
-- Online payments (gateway integration)
-- Responsive & mobile-friendly UI
+  <h3>🛠️ Admin Features</h3>
+  <ul>
+    <li>Add, update, and delete medicines/products</li>
+    <li>Manage user orders and update order status</li>
+    <li>Verify uploaded prescriptions</li>
+    <li>Inventory and order monitoring dashboard</li>
+  </ul>
 
-### 🛠️ Admin Features
-- Add, edit, and manage products
-- Manage orders & update order status
-- Review & verify uploaded prescriptions
-- Dashboard for tracking inventory & operations
+  <hr />
 
----
+  <h2>🧰 Technologies Used</h2>
 
-## 🧰 Technologies Used
+  <table border="1" cellpadding="6">
+    <tr>
+      <th>Technology</th>
+      <th>Purpose</th>
+    </tr>
+    <tr>
+      <td><b>HTML, CSS, Bootstrap</b></td>
+      <td>UI structure and responsive design</td>
+    </tr>
+    <tr>
+      <td><b>React.js</b></td>
+      <td>Frontend UI, components, and state management</td>
+    </tr>
+    <tr>
+      <td><b>Spring Boot</b></td>
+      <td>Backend REST APIs and business logic</td>
+    </tr>
+    <tr>
+      <td><b>.NET</b></td>
+      <td>Prescription upload and document handling service</td>
+    </tr>
+    <tr>
+      <td><b>MySQL</b></td>
+      <td>Relational database for users, orders, and products</td>
+    </tr>
+    <tr>
+      <td><b>JWT Authentication</b></td>
+      <td>Secure authentication and authorization</td>
+    </tr>
+  </table>
 
-| Technology | Purpose |
-|-----------|---------|
-| **HTML & CSS** | Structure & styling of pages |
-| **JavaScript** | Client-side logic & validation |
-| **Bootstrap** | Responsive UI components |
-| **React.js** | Dynamic UI, components, state management |
-| **Node.js & Express.js** | Backend server & REST APIs |
-| **MySQL** | Database for users, products, orders |
-| **JWT Authentication** | Secure login & token handling |
-| **Axios / Fetch API** | API communication |
+  <hr />
 
----
+  <h2>🎨 Frontend Technologies</h2>
+  <ul>
+    <li><b>React.js</b> – Component-based UI development</li>
+    <li><b>Bootstrap</b> – Responsive and mobile-first design</li>
+    <li><b>JavaScript</b> – Client-side validation and logic</li>
+    <li><b>HTML & CSS</b> – Page structure and styling</li>
+  </ul>
 
-## 🎨 Frontend Technologies
-- **HTML & CSS** – Page layout and styling  
-- **Bootstrap** – Responsive components  
-- **React.js** – Dynamic rendering, reusable components  
-- **JavaScript** – User interactions & validation  
+  <hr />
 
----
+  <h2>🖥️ Backend Technologies</h2>
+  <ul>
+    <li><b>Spring Boot</b> – RESTful APIs and backend services</li>
+    <li><b>.NET</b> – Prescription upload and file management</li>
+    <li><b>MySQL</b> – Structured data storage</li>
+    <li><b>JWT</b> – Secure user authentication</li>
+  </ul>
 
-## 🖥️ Backend Technologies
-- **Node.js & Express.js** – Routing, server logic  
-- **MySQL** – Database for structured storage  
-- **JWT Authentication** – Secure user sessions  
-- **RESTful APIs** – Smooth frontend–backend communication  
+  <hr />
 
----
+  <h2>🗂️ ER Diagram (Entity–Relationship Diagram)</h2>
+<img 
+  src="https://github.com/user-attachments/assets/79850b9d-9a15-4ac5-9c0d-ab2a7e75b9e6"
+  alt="ER Diagram"
+  style="width:420px; height:auto;"
+/>
 
-## 🗂️ ER Diagram (Entity–Relationship Diagram)
-<img width="420" height="305" alt="er diagram (1)" src="https://github.com/user-attachments/assets/42105adb-c93c-41b7-84e5-d6913fb891dd" />
 
----
+  <hr />
 
-## 🎯 Benefits of the Project
-- **Easy access to medicines anytime**  
-- **Saves time & effort** compared to visiting physical pharmacies  
-- **Secure & reliable platform** with authentication and verification  
-- **Efficient admin management** for products, inventory, and orders  
-
----
-
+  <h2>🎯 Benefits of the Project</h2>
+  <ul>
+    <li>Easy and quick access to medicines</li>
+    <li>Reduces dependency on physical pharmacies</li>
+    <li>Secure prescription verification system</li>
+    <li>Scalable architecture using Spring Boot and .NET services</li>
+    <li>Efficient admin control over inventory and orders</li>
+  </ul>
 
 </body>
-
 </html>
